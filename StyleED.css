@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "futura md bt";
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background: #ffffff;
+}
+header {
+    background: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: #000;
+    margin: 0 10px;
+    padding: 5px 0;
+    border: 3px solid transparent;
+}
+
+.img_kosen{
+    position: relative;
+}
+
+.img_kosen p{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img_kosen img{
+    width: 100%;
+}
+
+.main_select_class{
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 80%;
+    display: flex;
+}
+
+.home_sele{
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+}
+
+.home_sele img{
+    width: 150px;
+    height: 210px;
+    margin: 0 auto;
+}
+
+.home_sele p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home_sele p a{
+    color: #000;
+}
+
+
